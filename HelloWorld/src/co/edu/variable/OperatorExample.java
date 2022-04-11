@@ -32,7 +32,8 @@ public class OperatorExample {
 		int m3 = (m22/5000); //1장
 		int m33 = (m22%5000); //300원
 		int m4 = (m33/100); //3장
+		
 		System.out.println("금액 : " + money );
-		System.out.printf("5만원" + m1, "만원" + m2, "5천원" + m3, "백원" + m4 );
+		System.out.println("5만원" + m1+ "만원 " + m2+ " 5천원 " + m3+ " 백원 " + m4 );
 	}
 }
